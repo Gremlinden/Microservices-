@@ -1,0 +1,63 @@
+version: '3.3'
+services:
+  backend:
+    build:
+      context: ./admin
+      dockerfile: Dockerfile
+    command: bash -c 'python manage.py migrate && python manage.py runserver 0.0.0.0:8000'
+    ports:
+      - 8000:8000
+    volumes:
+      - ./admin:/app
+    depends_on:
+      - db
+  backend-main:
+    build:
+      context: ./main
+      dockerfile: Dockerfile
+    command: bash -c  'FLASK_APP=main.py python main.py'
+
+    ports:
+      - 8001:5000
+    volumes:
+      - ./main:/app
+    depends_on:
+      - db
+
+  queue:
+    build:
+      context: ./admin
+      dockerfile: Dockerfile
+    command: 'python -u consumer.py'
+    depends_on:
+      - db
+
+  queue-main:
+    build:
+      context: ./main
+      dockerfile: Dockerfile
+    command: 'python -u consumer.py'
+    depends_on:
+      - db
+
+  db:
+    image: mysql:5.7.22
+    restart: always
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+    volumes:
+      - .dbdata:/var/lib/mysql
+      - ./initDB.sql:/tmp/initDB.sql
+    command: mysqld --init-file="/tmp/initDB.sql"
+
+
+  web:
+    restart: always
+    depends_on:
+      - backend-main
+    build: ./react-crud
+    ports:
+      - "3000:80" # nginx listen on 80
+    command: [ nginx-debug, '-g', 'daemon off;' ]

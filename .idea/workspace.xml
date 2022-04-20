@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e6aec2e5-cc2f-4e59-9b4b-04022cde69f8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/react-crud/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-crud/nginx.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python-microservices.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python-microservices.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/admin/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/admin/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/admin/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin/asgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/admin/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/admin/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/admin/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/consumer.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin/consumer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/products/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin/products/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/products/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin/products/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/products/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin/products/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/products/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/products/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/products/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin/products/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/products/producer.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin/products/producer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/products/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin/products/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/products/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin/products/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/products/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin/products/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin/products/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/admin/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/main/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/consumer.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/consumer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/migrations/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/migrations/alembic.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/migrations/env.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/migrations/script.py.mako" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/migrations/versions/843c810aec1f_.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/producer.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/producer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/main/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-crud/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/react-crud/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-crud/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/react-crud/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-crud/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/react-crud/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-crud/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/react-crud/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-crud/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/react-crud/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-crud/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/react-crud/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-crud/.idea/react-crud.iml" beforeDir="false" afterPath="$PROJECT_DIR$/react-crud/.idea/react-crud.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-crud/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/react-crud/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-crud/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/react-crud/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-crud/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-crud/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-crud/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-crud/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-crud/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/react-crud/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-crud/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/react-crud/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-crud/public/logo192.png" beforeDir="false" afterPath="$PROJECT_DIR$/react-crud/public/logo192.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-crud/public/logo512.png" beforeDir="false" afterPath="$PROJECT_DIR$/react-crud/public/logo512.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-crud/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-crud/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-crud/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/react-crud/public/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-crud/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/react-crud/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-crud/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-crud/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-crud/src/admin/Products.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-crud/src/admin/Products.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-crud/src/admin/ProductsCreate.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-crud/src/admin/ProductsCreate.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-crud/src/admin/ProductsEdit.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-crud/src/admin/ProductsEdit.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-crud/src/admin/Wrapper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-crud/src/admin/Wrapper.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-crud/src/admin/components/Menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-crud/src/admin/components/Menu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-crud/src/admin/components/Nav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-crud/src/admin/components/Nav.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-crud/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/react-crud/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-crud/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-crud/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-crud/src/interfaces/product.ts" beforeDir="false" afterPath="$PROJECT_DIR$/react-crud/src/interfaces/product.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-crud/src/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/react-crud/src/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-crud/src/main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-crud/src/main/Main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-crud/src/react-app-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/react-crud/src/react-app-env.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-crud/src/serviceWorker.ts" beforeDir="false" afterPath="$PROJECT_DIR$/react-crud/src/serviceWorker.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-crud/src/setupTests.ts" beforeDir="false" afterPath="$PROJECT_DIR$/react-crud/src/setupTests.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-crud/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-crud/tsconfig.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/docker-compose.yml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/initDB.sql" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/main/Dockerfile" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/react-crud/.dockerignore" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/react-crud/Dockerfile" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/react-crud/nginx.conf" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/react-crud/package.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/react-crud/src/App.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/react-crud/src/App.tsx" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="1lkuJCjltWpC35Uw74QhOpqqeMJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/gremlin/Рабочий стол/python-microservices1&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/gremlin/Рабочий стол/python-microservices1/react-crud/node_modules/typescript/lib&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/react-crud" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.dbdata" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e6aec2e5-cc2f-4e59-9b4b-04022cde69f8" name="Default Changelist" comment="" />
+      <created>1608153335669</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608153335669</updated>
+      <workItem from="1608153336741" duration="18000" />
+      <workItem from="1608153411289" duration="92000" />
+      <workItem from="1650036349467" duration="6405000" />
+      <workItem from="1650045264615" duration="278000" />
+      <workItem from="1650141826944" duration="718000" />
+      <workItem from="1650226104129" duration="1254000" />
+      <workItem from="1650297312603" duration="14428000" />
+      <workItem from="1650312236412" duration="40000" />
+      <workItem from="1650312315078" duration="1533000" />
+      <workItem from="1650314003510" duration="1678000" />
+      <workItem from="1650315761913" duration="1540000" />
+      <workItem from="1650321397351" duration="2505000" />
+      <workItem from="1650349433780" duration="11662000" />
+      <workItem from="1650373430281" duration="2687000" />
+      <workItem from="1650376371681" duration="2255000" />
+      <workItem from="1650382970936" duration="4601000" />
+      <workItem from="1650432443237" duration="83000" />
+      <workItem from="1650433266788" duration="1106000" />
+      <workItem from="1650434433325" duration="1580000" />
+      <workItem from="1650436056066" duration="3801000" />
+      <workItem from="1650441962716" duration="1062000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
